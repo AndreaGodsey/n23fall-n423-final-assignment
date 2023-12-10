@@ -1,0 +1,11 @@
+.Doginformation{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: blue;
+    color: orange;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 23px;
+}

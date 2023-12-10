@@ -1,0 +1,11 @@
+.messageSent{
+    font-size: 80px;
+    height: 900px;
+    color:  #fff4e6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    font-style: italic;
+  }

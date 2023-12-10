@@ -1,0 +1,12 @@
+.Aboutinfo{
+    height: 500px;
+    width: 100%;
+    font-size: 24px;
+    color: #fff4e6;
+    background-color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

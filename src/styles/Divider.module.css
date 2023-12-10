@@ -1,0 +1,12 @@
+.divider{
+    width: 100%;
+    height: 100px;
+    background-color: orange;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff4e6;
+    font-size: 65px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
