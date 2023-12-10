@@ -61,7 +61,7 @@ const router = useRouter();
         <Callout imageURL='/Dogperson.jpg'
         header='Schedule a Visit!'
    />
-        <Aboutadoption descriptionone=' Welcome to the adoption center of the website! So you have found a furry friend that interest you! Now we need you to answer a few questions, so we can schedule a play date with your possible forever friend! 
+        <Aboutadoption descriptionone=' Welcome to the adoption center of the website! So you have found a furry friend that interest you! Would you like the chance to get to know that special dog your interested in? You can see them in person by scheduling a time and day to have a playdate with a possible forever friend! Just put your name, phone number, email, time of visit, date of visit, and list one of our charity locations!
            '
             />
         

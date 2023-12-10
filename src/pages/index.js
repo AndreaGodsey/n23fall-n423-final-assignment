@@ -1,8 +1,8 @@
 import React from 'react';
-import { Grid, Button,} from 'semantic-ui-react';
+import { Grid, Button, } from 'semantic-ui-react';
 import DogImage from '@/components/DogImage';
 import useAppState from '@/useHooks/useAppState';
-import Abouthome from '@/components/Abouthome';
+import Aboutbio from '@/components/Aboutbio';
 import Callout from '@/components/Callout';
 
 export default function Home() {
@@ -34,9 +34,10 @@ export default function Home() {
         header='Welcome to The Dog Gallery'
    />
 
-<Abouthome descriptionone=' Welcome to the home page of the official website known as The Dog Gallery! On this website, you are able to look at your favorite dog breeds, and schedule times to visit your possible forever friend! Feel free to have a look around, your new furry friend is waiting for you!
+<Aboutbio description=' Welcome to the home page of the official website known as The Dog Gallery! On this website, you are able to look at your favorite dog breeds, and schedule times to visit your possible forever friend! Go on ahead and start your journey by clicking the "Reload Dogs" button! A list of cuddly friends will appear, giving you the option to favorite or learn more about them! If you get bored with the list, just click "Reload Dogs" again, and the page will give you more options! If you would like to learn more about us, take a look at our about page to learn about the owner, as well as our beginnings! Have any favorited animals? You can see your favorites listed in the favorites page, as well as the option to edit your username! How convenient! Is there a special dog you wish to meet? Click the Adopt Dog section to set up a playdate! Finally, you can create an account with us, so you can start using these amazing features!
            '
             />
+
   
   <Grid columns='1'>
         
@@ -45,6 +46,8 @@ export default function Home() {
         <Grid.Column>
             <Button content='Reload Dogs' icon='sync' color='orange'onClick={getDogImages} />
         </Grid.Column>
+
+        
         
         <Grid.Row columns='5'>
         {appState.dogImages.map((dogImage) => {
