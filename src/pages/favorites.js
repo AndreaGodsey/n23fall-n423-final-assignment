@@ -4,6 +4,8 @@ import { Grid, Button, Header,Link } from 'semantic-ui-react';
 import DogImage from '@/components/DogImage';
 import Aboutfavorites from '@/components/Aboutfavorites';
 import Callout from '@/components/Callout';
+import Calloutinformation from '@/components/Callout';
+import styles from '@/styles/Divider.module.css';
 
 export default function Favorites() {
     const appState = useAppState();
@@ -51,7 +53,11 @@ export default function Favorites() {
         })}
         </Grid.Row>
 
-        
+        <div className={styles.divider}>Have a Favorite? Schedule a Playdate!</div>
+
+        <Calloutinformation imageURL='/Dogsrunning.jpg'
+        header='Create an account!'
+   />
         
         </Grid>
         

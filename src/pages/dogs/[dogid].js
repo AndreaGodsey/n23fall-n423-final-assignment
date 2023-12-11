@@ -2,6 +2,7 @@ import React from "react";
 import { useRouter } from "next/router";
 import Doginformation from "@/components/Doginformation";
 import { Rating } from 'semantic-ui-react';
+import Calloutadoption from '@/components/Calloutadoption';
 
 export default function DogInfo() {
   const Router = useRouter();
@@ -22,7 +23,9 @@ export default function DogInfo() {
   console.log(DogInfo);
   return (
     <>
-      <h1 style={{display: "flex", alignItems: 'center', justifyContent: 'center', backgroundColor: "blue", fontFamily:'Trebuchet MS', color:'orange', fontSize:"60px"}}>About Your Furry Friend</h1>
+     <Calloutadoption imageURL='/Dogperson.jpg'
+        header='You have been scheduled!'
+   />
 
     <Doginformation  descriptionone='Welcome to the Dog Information page! In this section, we get into the niddy-gritty of the details about our furry little pals! In this section, we discuss, the name of the breed, the weight, the temperament, the lifespan, their breed group, and finally what they are bred for.  Feel free to learn more about these special little guys!
            '

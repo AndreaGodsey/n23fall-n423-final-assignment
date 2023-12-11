@@ -12,7 +12,7 @@ https://n23fall-n423-final-assignment.vercel.app
 
 # Description
 
-This website will be developed as a CRUD application. As of now, there are ways to create, update, and Read, but am currently working on the delete option. The user has the option to create and update their accounts, as well as their dog image feeds. The user is also able to read the information that is displayed.
+This website is developed as a CRUD application. As of now, there are ways to create, update, read, and delete The user has the option to create and update their accounts, as well as their dog image feeds. The user is also able to read the information that is displayed. Finally, in the favorites section, the user has the option to delete all of their favorites.
 
 There are text and image elements on each page. React components are used for each section of the website, therefore the two React components quota is met.
 

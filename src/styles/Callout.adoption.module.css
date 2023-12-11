@@ -1,0 +1,19 @@
+.calloutImageAdoption{
+    width: 100%;
+    height: 430px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.titleCalloutAdoption{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: orange;
+    font-style: italic;
+    padding-top: 120px;
+}

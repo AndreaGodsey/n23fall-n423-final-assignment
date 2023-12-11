@@ -4,7 +4,8 @@ import DogImage from '@/components/DogImage';
 import useAppState from '@/useHooks/useAppState';
 import Aboutbio from '@/components/Aboutbio';
 import Callout from '@/components/Callout';
-
+import Calloutinformation from '@/components/Callout';
+import styles from '@/styles/Divider.module.css';
 export default function Home() {
 
     const appState = useAppState();
@@ -55,6 +56,22 @@ export default function Home() {
     })}
             
         </Grid.Row>
+        <div className={styles.divider}></div>
+
+        <Calloutinformation imageURL='/Dogowner.jpg'
+        header='Check out our About Tab!'
+   />
+         <div className={styles.divider}></div>
+
+<Calloutinformation imageURL='/Dogtoy.jpg'
+        header='Schedule a playdate!'
+   />
+
+<div className={styles.divider}></div>
+
+<Calloutinformation imageURL='/Dogsrunning.jpg'
+        header='Create an account!'
+   />
   </Grid>
   
   

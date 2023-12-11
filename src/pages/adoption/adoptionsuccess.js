@@ -1,15 +1,33 @@
 import React from 'react';
-import styles from '@/styles/Message.module.css'
+import Calloutadoption from '@/components/Calloutadoption';
+import styles from '@/styles/Divider.module.css';
 export default function AdoptionSuccess(){
     return (
         <>
 
-
-        <h1 className={styles.messageSent}>Your Visit Has Been Scheduled!</h1>
-        <h1 className={styles.messageSent}>Time of Visit: 5:00 P.M</h1>
-        <h1 className={styles.messageSent}>Date of Visit: December 20th</h1>
-        <h1 className={styles.messageSent}>Location of Visit: Bloomington, Indiana</h1>
+        <div className={styles.divider}></div>
       
+        <Calloutadoption imageURL='/Dogperson.jpg'
+        header='You have been scheduled!'
+   />
+        <div className={styles.divider}></div>
+
+        <Calloutadoption imageURL='/Clocks.jpg'
+        header='Time of Visit: 5:00 PM'
+   />
+        <div className={styles.divider}></div>
+
+<Calloutadoption imageURL='/Calendar.jpg'
+        header='Date of Visit: December 20th'
+   />
+
+        <div className={styles.divider}></div>
+
+        <Calloutadoption imageURL='/Map.jpg'
+        header='Location of Visit: Bloomington, Indiana'
+   />
+        
+        <div className={styles.divider}></div>
         </>
     );
 }
