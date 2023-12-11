@@ -24,7 +24,7 @@ export default function DogInfo() {
   return (
     <>
      <Calloutadoption imageURL='/Dogperson.jpg'
-        header='You have been scheduled!'
+        header='Welcome to the Dog Information page!'
    />
 
     <Doginformation  descriptionone='Welcome to the Dog Information page! In this section, we get into the niddy-gritty of the details about our furry little pals! In this section, we discuss, the name of the breed, the weight, the temperament, the lifespan, their breed group, and finally what they are bred for.  Feel free to learn more about these special little guys!
